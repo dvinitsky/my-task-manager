@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+  <button style = "display: block; margin-bottom: 10px" onclick = newListTrigger()>
+    Create New Task List  
+  </button>
+  
+  <select id = "listselector" style = "display: inline" onchange = displayTaskList()>
+  </select>
+  
+  <button id = "deletelistbutton" style = "display: inline; margin-left: 10px" onclick = deleteTaskList()>Delete List</button>
+  
+  <br>
+
+  <input id = "input" style = "display: inline; margin-top: 10px"/>
+  
+  <button id = "addbutton" style = "display: inline; margin-left: 10px" onclick = addTask()>Submit</button>
+  
+  <h3 id = taskname style = "display: block"></h3>
+  <div id = "divcontainer" style = "display: inline">
+  </div>
+  
+  <button id = "removebutton" style = "display: inline; margin-top: 10px; margin-bottom: 10px" onclick = removeTask()>Delete Task</button>
+  
+  <select id = "dropdown" style = "display: inline"></select>
+  
+  <par id = "completedheader" style = "display: block; font-size: 14px">Completed:</h5>
+  <par id = "completedlist"></par>
+  
+  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+<link rel="stylesheet" href="index.css">    
+<script type="text/javascript" src="mytaskmanager.js">
+</script>
+</body>
+</html>

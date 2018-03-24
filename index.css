@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite;
+    padding-left: 15px;
+}
+
+
+
+#taskInput {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#taskListHeader {
+    margin-top: 15px;
+}
+
+#removeButton {
+    margin-top: 15px;
+    margin-right: 10px;
+}
